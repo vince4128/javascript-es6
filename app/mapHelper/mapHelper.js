@@ -19,4 +19,14 @@ export function mapHelper(){
 
     console.log(prices);
 
+    function pluck(array, property) {
+        return array.map((item)=>{
+            return item[property];    
+        })
+    }
+    
+    var paints = [{color:'red'}, {color:'blue'}, {color:'yellow'}];
+    var colors = pluck(paints,'color');
+    console.log(colors);
+
 }
