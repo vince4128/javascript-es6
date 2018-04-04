@@ -3,7 +3,7 @@ export function foreachHelper(){
     //create an array
     const colors = ['red','green','blue'];
     //loop over the array
-    colors.forEach(function(color){
+    colors.forEach((color) => {
         console.log(color);
     });
 
