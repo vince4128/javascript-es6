@@ -13,4 +13,22 @@ export function findHelper(){
     });
 
     console.log(user);
+
+    //find continued
+    function Car(model){
+        this.model = model;
+    }
+
+    const cars = [
+        new Car('DS'),
+        new Car('SM'),
+        new Car('CX')
+    ];
+
+    const theCar = cars.find((car)=>{
+        return car.model === 'DS';
+    })
+
+    console.log(theCar);
+
 }
