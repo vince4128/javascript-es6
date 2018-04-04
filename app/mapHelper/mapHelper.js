@@ -8,6 +8,7 @@ export function mapHelper(){
 
     console.log(doubleNumbers);
 
+    //Plucking values
     const cars = [
         { model: '2cv', price: 'CHEAP'},
         { model : 'sm', price: 'expensive'}
@@ -19,6 +20,7 @@ export function mapHelper(){
 
     console.log(prices);
 
+    //method to pluck values
     function pluck(array, property) {
         return array.map((item)=>{
             return item[property];    
