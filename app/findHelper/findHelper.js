@@ -49,4 +49,22 @@ export function findHelper(){
 
     console.log(postToShow);
 
+    //
+    const ladders = [
+        {id:1, height:20},
+        {id:3, height:25}
+    ];
+
+    function findWhere(array, criteria) {
+        const value = Object.values(criteria);
+        const param = Object.keys(criteria);
+        return array.find((item)=>{
+            return item[param] === value[0];
+        })
+    }
+
+    const foundedLadder = findWhere(ladders, {height:25});
+
+    console.log(foundedLadder);
+
 }
