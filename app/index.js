@@ -12,6 +12,8 @@ import { everyAndSomeHelper } from "./everyAndSomeHelper/everyAndSomeHelper";
 import { reduceHelper } from "./reduceHelper/reduceHelper";
 //templateString
 import { templateString } from "./templateString/templateString";
+//arrowFunc
+import { arrowFunc } from "./arrowFunc/arrowFunc";
 
 foreachHelper();
 
@@ -26,3 +28,5 @@ everyAndSomeHelper();
 reduceHelper();
 
 templateString();
+
+arrowFunc();
