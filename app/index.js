@@ -8,6 +8,8 @@ import { filterHelper } from "./filterHelper/filterHelper";
 import { findHelper } from "./findHelper/findHelper";
 //every and some
 import { everyAndSomeHelper } from "./everyAndSomeHelper/everyAndSomeHelper";
+//reduce
+import { reduceHelper } from "./reduceHelper/reduceHelper";
 
 
 foreachHelper();
@@ -19,3 +21,5 @@ filterHelper();
 findHelper();
 
 everyAndSomeHelper();
+
+reduceHelper();
