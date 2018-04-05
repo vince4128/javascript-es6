@@ -31,4 +31,22 @@ export function findHelper(){
 
     console.log(theCar);
 
+    //
+    const posts = [
+        { id:1, title:'New Post' },
+        { id:2, title:'Old Post'}
+    ];
+
+    const comment = { postId:1, content:'Great Post' };
+
+    function postForComment(){
+        return posts.find((post)=>{
+            return post.id === comment.postId;
+        });
+    }
+
+    const postToShow = postForComment(posts, comment);
+
+    console.log(postToShow);
+
 }
