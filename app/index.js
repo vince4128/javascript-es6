@@ -10,7 +10,8 @@ import { findHelper } from "./findHelper/findHelper";
 import { everyAndSomeHelper } from "./everyAndSomeHelper/everyAndSomeHelper";
 //reduce
 import { reduceHelper } from "./reduceHelper/reduceHelper";
-
+//templateString
+import { templateString } from "./templateString/templateString";
 
 foreachHelper();
 
@@ -23,3 +24,5 @@ findHelper();
 everyAndSomeHelper();
 
 reduceHelper();
+
+templateString();
