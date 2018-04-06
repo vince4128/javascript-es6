@@ -16,6 +16,8 @@ import { templateString } from "./templateString/templateString";
 import { arrowFunc } from "./arrowFunc/arrowFunc";
 //enHanced Literals
 import { enhancedLiterals } from "./enhancedLiterals/enhancedLiterals";
+//default function arguments
+import { defaultFuncArgs } from "./defaultFuncArgs/defaultFuncArgs";
 
 foreachHelper();
 
@@ -34,3 +36,5 @@ templateString();
 arrowFunc();
 
 enhancedLiterals();
+
+defaultFuncArgs();
