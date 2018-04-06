@@ -14,6 +14,8 @@ import { reduceHelper } from "./reduceHelper/reduceHelper";
 import { templateString } from "./templateString/templateString";
 //arrowFunc
 import { arrowFunc } from "./arrowFunc/arrowFunc";
+//enHanced Literals
+import { enhancedLiterals } from "./enhancedLiterals/enhancedLiterals";
 
 foreachHelper();
 
@@ -30,3 +32,5 @@ reduceHelper();
 templateString();
 
 arrowFunc();
+
+enhancedLiterals();
