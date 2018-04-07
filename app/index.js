@@ -18,6 +18,8 @@ import { arrowFunc } from "./arrowFunc/arrowFunc";
 import { enhancedLiterals } from "./enhancedLiterals/enhancedLiterals";
 //default function arguments
 import { defaultFuncArgs } from "./defaultFuncArgs/defaultFuncArgs";
+//rest and spread operator
+import { restAndSpread } from "./restAndSpread/restAndSpread";
 
 foreachHelper();
 
@@ -38,3 +40,5 @@ arrowFunc();
 enhancedLiterals();
 
 defaultFuncArgs();
+
+restAndSpread();
