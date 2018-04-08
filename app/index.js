@@ -20,6 +20,8 @@ import { enhancedLiterals } from "./enhancedLiterals/enhancedLiterals";
 import { defaultFuncArgs } from "./defaultFuncArgs/defaultFuncArgs";
 //rest and spread operator
 import { restAndSpread } from "./restAndSpread/restAndSpread";
+//destructuring
+import { destructuring } from "./destructuring/destructuring";
 
 foreachHelper();
 
@@ -42,3 +44,5 @@ enhancedLiterals();
 defaultFuncArgs();
 
 restAndSpread();
+
+destructuring();
