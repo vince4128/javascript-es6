@@ -43,8 +43,19 @@ export function classes(){
 
     }
 
-    const car = new Car({ title:'Toyota'});
+    class Toyota {
 
-    console.log(car, car.drive());
+        constructor({ color }){
+            this.color = color;
+        }
+        
+        honk() {
+            return 'beep';
+        }
+
+    }
+
+    const toyota = new Toyota({ color: 'red' });
+    console.log(toyota,toyota.honk());
 
 }
