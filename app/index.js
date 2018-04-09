@@ -24,6 +24,8 @@ import { restAndSpread } from "./restAndSpread/restAndSpread";
 import { destructuring } from "./destructuring/destructuring";
 //classes
 import { classes } from "./classes/classes";
+//generators
+import { generators } from "./generators/generators";
 
 foreachHelper();
 
@@ -50,3 +52,5 @@ restAndSpread();
 destructuring();
 
 classes();
+
+generators();
