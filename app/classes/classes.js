@@ -43,10 +43,11 @@ export function classes(){
 
     }
 
-    class Toyota {
+    class Toyota extends Car {
 
-        constructor({ color }){
-            this.color = color;
+        constructor(options){
+            super(options); // Car.constructor()
+            this.color = options.color;
         }
         
         honk() {
@@ -55,7 +56,7 @@ export function classes(){
 
     }
 
-    const toyota = new Toyota({ color: 'red' });
-    console.log(toyota,toyota.honk());
+    const toyota = new Toyota({ color: 'red', title: 'Daily driver' });
+    console.log(toyota,toyota.honk(),toyota.drive());
 
 }
