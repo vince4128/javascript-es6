@@ -66,4 +66,59 @@ export function destructuring(){
     // const { locations : locations } = Google;
     //console.log(locations)
 
+    //when to use destructuring ?
+
+    // we use a very long chain of arguments
+    // function signUp(username, password, email, dateOfBirth, city)
+    // maybe we ca use an object and destructure it
+    function signUp({city, password, email, username, dateOfBirth}){
+        // create new user
+    }
+
+    // other code
+    // other code
+
+    // without using object
+    // signUp('myname', 'mypassword','myemail@example.com', '1/1/1990', 'New York');
+
+    // using object
+    const user = {
+        username: 'myname' ,
+        password: 'mypassword',
+        email: 'myemail@example.com',
+        dateOfBirth: '1/1/1990',
+        city: 'New York'
+    }
+
+    signUp(user);
+
+    // an api give us coordinate in arrays in array
+    // but we want a array of object in the form [{ x:4, y:5 }, {}]
+
+    const points = [
+        [4,5],
+        [10,1],
+        [0,40]
+    ];
+
+    //destructuration in the arguments of the anonymous arrow function
+    const structureChanged = points.map(([x, y]) => {
+        return {x: x, y: y};
+    });
+
+    console.log(structureChanged);
+
+    //array destructuring exercise without using array helper
+    const numbers = [1, 2, 3];
+
+    // use recursivity
+    function double([ num, ...rest ]){
+        if (rest.length > 0) return [num * 2, ...double(rest)];
+        return [num * 2];
+    }
+
+    console.log('exercise');
+    console.log(double(numbers));
+    //double(numbers);
+
 }
