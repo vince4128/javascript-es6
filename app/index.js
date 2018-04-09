@@ -22,6 +22,8 @@ import { defaultFuncArgs } from "./defaultFuncArgs/defaultFuncArgs";
 import { restAndSpread } from "./restAndSpread/restAndSpread";
 //destructuring
 import { destructuring } from "./destructuring/destructuring";
+//classes
+import { classes } from "./classes/classes";
 
 foreachHelper();
 
@@ -46,3 +48,5 @@ defaultFuncArgs();
 restAndSpread();
 
 destructuring();
+
+classes();
