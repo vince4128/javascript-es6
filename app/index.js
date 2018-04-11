@@ -26,6 +26,8 @@ import { destructuring } from "./destructuring/destructuring";
 import { classes } from "./classes/classes";
 //generators
 import { generators } from "./generators/generators";
+//promise and fetch
+import { promiseAndFetch } from "./promiseAndFetch/promiseAndFetch";
 
 foreachHelper();
 
@@ -54,3 +56,5 @@ destructuring();
 classes();
 
 generators();
+
+promiseAndFetch();
